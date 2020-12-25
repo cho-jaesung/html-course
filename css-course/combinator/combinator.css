@@ -1,0 +1,22 @@
+/* 
+h2 + p {
+  color: red;
+}
+ */
+
+/* 
+h2 ~ p {
+  color: red;
+}
+*/
+
+/* div 바로 밑에있는 p만 
+div의 직계 자손p만 선택된다.
+div > p {
+  color: red;
+}
+*/
+
+div p {
+  color: red;
+}

@@ -1,0 +1,30 @@
+/* 기본세팅*  */
+
+  box-sizing: { border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Anton", sans-serif;
+}
+
+#news {
+  background-color: black;
+}
+
+/* margin cliiapsion  */
+.t1 {
+  border: 1px solid blue;
+  margin-bottom: 50px;
+}
+.t2 {
+  border: 1px solid blue;
+  margin-top: 30px;
+}
+
+.t3 {
+  border: 2px solid red;
+  width: 80%;
+  height: 30%;
+}

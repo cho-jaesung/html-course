@@ -1,0 +1,69 @@
+.main-contents {
+  padding-top: 32px;
+}
+
+.background {
+  background-image: url("../image/aa1.jpg");
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.package {
+  width: 80%;
+  margin: 16px 0px;
+  border: 3px solid green;
+  padding: 15px;
+}
+
+.package:hover,
+.package:active {
+  border: 3px solid rgb(128, 0, 43);
+}
+
+.package a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.package__badge {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 18px;
+  background-color: olivedrab;
+
+  color: white;
+}
+
+.package__subtitle {
+  color: #979797;
+}
+
+.package__info {
+  padding: 10px;
+  border: 1px solid mediumaquamarine;
+  font-size: 12px;
+}
+
+#plus {
+  background-color: #c6f1f0;
+  position: relative;
+}
+
+#free {
+  background-color: #c6f1d3;
+  float: right;
+}
+
+#premium {
+  background-color: #c6e5f1;
+}
+
+.premium-float {
+  clear: both;
+}

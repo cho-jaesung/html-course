@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header {
+  background-color: #eee;
+  padding: 10px 0;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
+}
+
+.main-nav__item {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.main-nav__item a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+  color: red;
+  border-bottom: 5px solid white;
+  padding-bottom: 4px;
+}
+
+.main-header div {
+  display: inline-block;
+}
+
+.main-nav {
+  display: inline-block;
+  width: calc(100% - 50px);
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.main-header > div > a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-footer {
+  background-color: black;
+  padding: 50px;
+}
+
+.main-footer__links {
+  list-style: none;
+  text-align: center;
+}
+.main-footer__link {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+  color: gray;
+}
+
+.main-footer__link a {
+  text-decoration: none;
+  color: white;
+}
+
+.highlighted-item a {
+  background-color: rgba(53, 233, 143, 0.87);
+  border-radius: 5px;
+}
+
+.highlighted-item a:hover,
+.highlighted-item a:active {
+  color: white;
+  border-bottom: none;
+  padding-bottom: 0px;
+}
+
+.button {
+  background-color: rgb(41, 4, 73);
+  color: white;
+  font: inherit;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  background-color: white;
+  color: rgb(41, 4, 73);
+}
+
+.button:focus {
+  outline: none;
+}
